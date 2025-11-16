@@ -1,0 +1,15 @@
+Accuracy: 1.0000
+Macro F1: 1.0000
+
+                precision    recall  f1-score   support
+
+play_frontside     1.0000    1.0000    1.0000         2
+stick_deadside     1.0000    1.0000    1.0000         2
+   take_height     1.0000    1.0000    1.0000         2
+
+      accuracy                         1.0000         6
+     macro avg     1.0000    1.0000    1.0000         6
+  weighted avg     1.0000    1.0000    1.0000         6
+
+Final model trained on full dataset and saved to `models/baseline_pipeline_final.joblib`.
+Classes: ['play_frontside', 'stick_deadside', 'take_height']

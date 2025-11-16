@@ -1,0 +1,6 @@
+match_id,frame_id,zone_phase,alive_players,zone_index,storm_edge_dist,mats_total,surge_above,height_status,position_type,teammates_alive,outcome_placement,outcome_alive_time,row_id,best_call
+match_001,1,mid,34,5,12,450,10,mid,edge,2,20,120,match_001_1,play_frontside
+match_001,2,late,16,8,3,1200,50,high,center,0,5,360,match_001_2,look_for_refresh
+match_002,1,early,60,3,45,200,-20,low,edge,3,40,60,match_002_1,stick_deadside
+match_002,5,mid,28,6,10,800,5,mid,cover,1,12,180,match_002_5,take_height
+match_003,10,late,8,9,2,5000,100,high,edge,0,2,390,match_003_10,stick_deadside

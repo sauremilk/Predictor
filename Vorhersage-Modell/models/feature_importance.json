@@ -1,0 +1,21 @@
+{
+  "surge_above_normalized": 0.002777777777777768,
+  "mats_per_player": 0.0011111111111111072,
+  "zone_storm_interaction": 0.0011111111111111072,
+  "players_mats_interaction": 0.0011111111111111072,
+  "surge_above": 0.0005555555555555536,
+  "zone_index": 0.0,
+  "alive_players": 0.0,
+  "teammates_alive": 0.0,
+  "storm_edge_dist": 0.0,
+  "mats_total": 0.0,
+  "outcome_placement": 0.0,
+  "outcome_alive_time": 0.0,
+  "health_ratio": 0.0,
+  "storm_threat": 0.0,
+  "zone_index_squared": 0.0,
+  "placement_time_ratio": 0.0,
+  "log_mats": 0.0,
+  "log_outcome_placement": 0.0,
+  "log_outcome_alive_time": 0.0
+}

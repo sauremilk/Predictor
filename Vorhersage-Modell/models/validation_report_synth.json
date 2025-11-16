@@ -1,0 +1,211 @@
+{
+  "timestamp": "2025-11-17T02:41:03.667855",
+  "input_rows": 900,
+  "checks": {
+    "missing_values": {},
+    "class_distribution": {
+      "distribution": {
+        "stick_deadside": 0.28555555555555556,
+        "play_frontside": 0.2611111111111111,
+        "take_height": 0.15888888888888889,
+        "stabilize_box": 0.10888888888888888,
+        "look_for_refresh": 0.09666666666666666,
+        "drop_low": 0.08888888888888889
+      },
+      "invalid_classes": [],
+      "class_count": 6
+    },
+    "numeric_features": {
+      "zone_index": {
+        "count": 900,
+        "missing": 0,
+        "mean": 5.952222222222222,
+        "std": 1.9997067514589306,
+        "min": 3.0,
+        "max": 9.0,
+        "median": 6.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            0,
+            10
+          ]
+        }
+      },
+      "alive_players": {
+        "count": 900,
+        "missing": 0,
+        "mean": 49.84222222222222,
+        "std": 17.92245053273978,
+        "min": 20.0,
+        "max": 80.0,
+        "median": 49.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            1,
+            100
+          ]
+        }
+      },
+      "teammates_alive": {
+        "count": 900,
+        "missing": 0,
+        "mean": 1.4944444444444445,
+        "std": 1.1344402324314362,
+        "min": 0.0,
+        "max": 3.0,
+        "median": 1.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            0,
+            4
+          ]
+        }
+      },
+      "storm_edge_dist": {
+        "count": 900,
+        "missing": 0,
+        "mean": 30.414444444444445,
+        "std": 17.8928466831689,
+        "min": 0.0,
+        "max": 60.0,
+        "median": 30.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            -1000,
+            5000
+          ]
+        }
+      },
+      "mats_total": {
+        "count": 900,
+        "missing": 0,
+        "mean": 1538.608888888889,
+        "std": 857.349163875156,
+        "min": 5.0,
+        "max": 2997.0,
+        "median": 1521.5,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            0,
+            3000
+          ]
+        }
+      },
+      "surge_above": {
+        "count": 900,
+        "missing": 0,
+        "mean": 127.82444444444444,
+        "std": 157.68460326560898,
+        "min": -149.0,
+        "max": 400.0,
+        "median": 132.5,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            -1000,
+            5000
+          ]
+        }
+      },
+      "outcome_placement": {
+        "count": 900,
+        "missing": 0,
+        "mean": 51.17666666666667,
+        "std": 28.926528655660373,
+        "min": 1.0,
+        "max": 100.0,
+        "median": 51.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            1,
+            100
+          ]
+        }
+      },
+      "outcome_alive_time": {
+        "count": 900,
+        "missing": 0,
+        "mean": 197.0611111111111,
+        "std": 114.60908865497348,
+        "min": 1.0,
+        "max": 400.0,
+        "median": 195.0,
+        "out_of_bounds": {
+          "count": 0,
+          "percentage": 0.0,
+          "expected_range": [
+            0,
+            3600
+          ]
+        }
+      }
+    },
+    "categorical_features": {
+      "zone_phase": {
+        "unique_values": [
+          "early",
+          "mid",
+          "late"
+        ],
+        "value_counts": {
+          "mid": 437,
+          "early": 294,
+          "late": 169
+        },
+        "invalid_values": [],
+        "missing": 0
+      },
+      "height_status": {
+        "unique_values": [
+          "high",
+          "mid",
+          "low"
+        ],
+        "value_counts": {
+          "mid": 455,
+          "high": 271,
+          "low": 174
+        },
+        "invalid_values": [],
+        "missing": 0
+      },
+      "position_type": {
+        "unique_values": [
+          "corner",
+          "edge",
+          "center"
+        ],
+        "value_counts": {
+          "center": 313,
+          "corner": 298,
+          "edge": 289
+        },
+        "invalid_values": [],
+        "missing": 0
+      }
+    },
+    "duplicates": {
+      "total_duplicates": 0,
+      "total_rows": 900,
+      "duplicate_percentage": 0.0
+    }
+  },
+  "summary": {
+    "total_issues": 0,
+    "issues": [],
+    "validation_status": "PASS"
+  }
+}

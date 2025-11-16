@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+skl2onnx
+onnxruntime
+torch
+torchvision
+fastapi
+uvicorn[standard]
+pydantic
+scipy
+requests
+optuna
